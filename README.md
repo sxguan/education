@@ -3,8 +3,12 @@
 ```
 cd $GOPATH/src && git clone https://github.com/sxguan/education.git
 ```
+添加依赖：
+```
+cd education && go mod tidy
+```
 运行项目：
 ```
-cd education && ./clean_docker.sh
+./clean_docker.sh
 ```
 在`127.0.0.1:9000`进行访问
